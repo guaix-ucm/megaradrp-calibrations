@@ -1,0 +1,78 @@
+# MR-G Nico's version
+# http://physics.nist.gov/PhysRefData/ASD/lines_form.html
+#------------------------------------------------------------------------------
+4965.0794    891 # ArII from NIST
+4972.1599    100 # ArII from NIST
+4985.3724   3700 # ThI from NIST
+5002.0971   7800 # ThI from NIST
+5009.3342    355 # ArII from NIST
+5017.1626   7413 # ArII from NIST
+5039.2303   5300 # ThI from NIST
+5044.7195   9700 # ThI from NIST
+5062.0370    398 # ArII from NIST
+5064.9454   4700 # ThI from NIST
+5067.9738  15000 # ThI from NIST
+5090.4948     45 # ArII from NIST
+5096.4848   2700 # ThI from NIST
+5100.6211   3500 # ThI from NIST
+5115.0447   6800 # ThI from NIST
+5125.9503   1400 # ThI from NIST
+5134.7459   2100 # ThI from NIST
+5141.7826    224 # ArII from NIST
+5145.3080    162 # ArII from NIST
+5151.6119   6000 # ThI from NIST faint
+5154.2430     20 # ArI from NIST faint
+5158.6042  16000 # ThI from NIST
+5162.2850     15 # ArI from NIST
+5163.4584   3000 # ThI from NIST
+5165.7727     48 # ArII from NIST faint
+5176.9611   5000 # ThI from NIST faint
+5187.7460     20 # ArI from NIST
+5195.8136   5100 # ThI from NIST faint
+5199.1638   9200 # ThI from NIST
+5209.0700      0 # interpolated with R5-findarc
+5211.2303   6900 # ThI from NIST faint and too close to previous one
+#5213.3492   2500 # ThI from NIST faint
+#5216.8140     28 # ArII from NIST faint
+5219.1099   4400 # ThI from NIST faint
+5221.2710      7 # ArI from NIST faint
+5231.1596  15000 # ThI from NIST
+5238.8138   2100 # ThI from NIST
+5239.5521   1800 # ThI from NIST faint
+5247.6546   1900 # ThI from NIST faint
+5252.7870      0 # ArI from NIST faint
+5258.3602   9200 # ThI from NIST
+5266.7102   4600 # ThI from NIST faint
+5274.1187   1800 # ThI from NIST faint
+#5281.6295     21 # ArII from NIST faint
+#5286.8866     18 # ArII from NIST faint
+5296.2786    1800 # ThI from NIST
+5297.7430    2000 # ThI from NIST
+5298.2825    2000 # ThI from NIST
+5312.0017    7300 # ThI from NIST
+5312.5288    3400 # ThI from NIST
+5326.9757   4400 # ThI from NIST faint
+5343.5812  11000 # ThI from NIST
+5358.3797     14 # ArII from NIST faint
+5360.1500   2200 # ThI from NIST faint
+5369.2817    900 # ThI from NIST faint
+5374.8218   1800 # ThI from NIST faint
+5379.0134   3300 # ThI from NIST (w.mean of 5378.83571 and 5379.11036) faint
+5386.6105   4700 # ThI from NIST faint
+5390.4256   2400 # ThI from NIST faint
+5394.7607   4100 # ThI from NIST faint
+#5398.7015   1300 # ThI from NIST faint
+5407.6535   4900 # ThI from NIST faint
+5410.7688   3700 # ThI from NIST faint
+5417.4858  12000 # ThI from NIST
+5421.3520      5 # ArI from NIST faint
+5431.1118   3100 # ThI from NIST faint
+5439.9890      0 # ArI from NIST faint
+5443.1187    600 # ThII from NIST faint
+5451.6520     10 # ArI from NIST
+#5452.2187   3800 # ThI from NIST
+#5457.4160      0 # ArI from NIST faint
+5465.4575       0 # interpolated with R5-findarc
+#5492.6433   2800 # ThI from NIST faint
+5495.8740     25 # ArI from NIST
+5499.2552  11000 # ThI from NIST

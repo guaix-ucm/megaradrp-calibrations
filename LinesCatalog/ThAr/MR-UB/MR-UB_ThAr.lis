@@ -1,0 +1,73 @@
+# MR-UB Nico's version
+# Some wavelengths have been extrated from:
+# http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html
+#------------------------------------------------------------------------------
+4228.1470  0 # manually interpolated with R5-findarc, weak line
+4235.4636  1 #ThI (from Photron)
+4237.2056  0 # manually interpolated with R5-findarc, weak line
+4250.3159  0 # manually interpolated with R5-findarc, weak line
+4257.5073  0 # manually interpolated with R5-findarc, weak line
+4259.3619  1 #ArI (from Photron)
+4266.3633  0 # manually interpolated with R5-findarc, weak line
+4272.1655  0 # manually interpolated with R5-findarc, weak line
+4277.5282  1 #ArII (from Photron)
+4282.0413  1 #ThII (from Photron)
+4282.8711  0 # manually interpolated with R5-findarc, weak line
+4300.1008  1 #ArI (from Photron)
+4300.6206  0 # manually interpolated with R5-findarc, weak line
+4309.1987  0 # manually interpolated with R5-findarc, weak line
+4312.9975  1 #ThI (from Photron)
+4315.2676  0 # manually interpoalted with R5-findarc, weak line
+4331.1995  1 #ArII (from Photron)
+4332.0391  0 # manually interpoalted with R5-findarc, weak line
+4333.5612  1 #ArI (from Photron)
+4335.3628  0 # manually interpolated with R5-findarc, weak line
+4337.2065  0 # manually interpolated with R5-findarc, weak line
+4345.1831  0 # manually interpolated with R5-findarc, weak line
+4348.0640  1 #ArII (from Photron)
+4352.2339  0 # manually interpolated with R5-findarc, weak line
+4362.0952  0 # manually interpolated with R5-findarc, weak line
+4367.8413  0 # manually interpolated with R5-findarc, weak line
+4370.7532  1 #ArII (from Photron)
+4371.3290  1 #ArII (from Photron)
+4374.1239  1 #ThI (from Photron)
+4374.8584  0 # manually interpolated with R5-findarc, weak line
+4375.9542  1 #ArII (from Photron)
+4378.1768  1 #ThI (from Photron)
+4379.6668  1 #ArII (from Photron)
+4381.8601  1 #ThII (from Photron)
+4385.0566  1 #ArII (from Photron)
+4391.1105  1 #ThII (from Photron)
+4400.0968  1 #ArII (from Photron)
+4400.9863  1 # ArII (from Photron)
+4401.0244  0 # manually interpolated with R5-findarc, weak line
+4402.9468  0 # manually interpolated with R5-findarc, weak line
+4408.8828  1 # ThI (from Photron)
+4420.9033  0 # manually interpolated with R5-findarc, weak line
+4426.0011  1 # ArII (from Photron)
+4430.1890  1 # ArII (from Photron)
+4430.9963  1 # ArII (from Photron)
+4433.8380  1 # ArII (from Photron)
+4439.4507  0 # interpolated with R5-findarc, faint line
+4448.8792  1 # ArII (from Photron)
+4452.5640  0 # interpolated with R5-findarc, faint line
+4458.0015  1 # ThI (from Photron)
+4474.7594  1 # ArII (from Photron)
+4481.8107  1 # ArII (from Photron)
+4486.8682  0 # interpolated with R5-findarc, faint line
+4490.9658  0 # interpolated with R5-findarc, faint line
+4493.3337  1 # ThI (from Photron)
+4502.8906  0 # interpolated with R5-findarc, faint line
+4510.7332  1 # ArI (from Photron)
+4515.0933  0 # interpolated with R5-findarc, faint line
+4521.1636  0 # interpolated with R5-findarc, faint line
+4522.3042  0 # interpolated with R5-findarc, faint line
+4530.5171  0 # interpolated with R5-findarc, faint line
+4545.0519  1 # ArII (from Photron)
+4579.3495  1 # ArII (from Photron)
+4589.8978  1 # ArII (from Photron)
+4595.4206  1 # ThI (from Photron)
+4596.1069  0 # interpolated with R5-findarc, faint line
+4598.7730  0 # interpolated with R5-findarc, faint line
+4609.5673  1 # ArII (from Photron)
+4628.4575  0 # interpolated with R5-findarc, faint line

@@ -1,0 +1,54 @@
+#LR-R Nico's version
+# Some wavelengths have been extrated from:
+# http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html
+#------------------------------------------------------------------------------
+6114.9234 0.0 #ArII (from Photron)
+#6151.9929 0.0 #ThI (from Photron) too weak?
+#6164.4796 0.0 #ThI (from Photron) too weak?
+6169.8221 0.0 #ThI (from Photron)
+6172.2778 0.0 #ArII (from Photron)
+6182.6217 0.0 #ThI (from Photron)
+#6188.1251 0.0 #ThI (from Photron) too weak?
+#6191.9053 0.0 #ThI (from Photron) too weak?
+#6198.2227 0.0 #ThI (from Photron) too weak?
+6203.4925 0.0 #ThI (from Photron)
+#6207.2201 0.0 #ThI (from Photron) too weak?
+#6224.5272 0.0 #ThI (from Photron) too weak?
+#6234.8554 0.0 #ThI (from Photron) too weak?
+#6257.4237 0.0 #ThI (from Photron) too weak?
+#6261.4181 0.0 #ThI (from Photron) too weak?
+#6274.1166 0.0 #ThII (from Photron) too weak?
+#6327.2778 0.0 #ThI (from Photron) too weak?
+#6342.8595 0.0 #ThI (from Photron) too weak?
+#6411.8991 0.0 #ThI (from Photron) too weak?
+6416.3071 0.0 #ArI (from Photron)
+6457.2824 0.0 #ThI (from Photron)
+#6490.7372 0.0 #ThI (from Photron) too weak?
+#6512.3639 0.0 #ThI (from Photron) too weak?
+6531.3418 0.0 #ThI (from Photron)
+#6554.1603 0.0 #ThI (from Photron) too weak?
+#6577.2146 0.0 #ThI (from Photron) too weak?
+6583.9060 0.0 #ThI (from Photron)
+6588.5396 0.0 #ThI (from Photron)
+6591.4845 0.0 #ThI (from Photron)
+#6593.9391 0.0 #ThI (from Photron) too weak and near to the previous one
+6643.6976 0.0 #ArII (from Photron)
+6662.2686 0.0 #ThI (from Photron)
+6677.2817 0.0 #ArI (from Photron)
+6752.8335 0.0 #ArI (from Photron)
+6756.4528 0.0 #ThI (from Photron)
+6834.9246 0.0 #ThI (from Photron)
+6871.2891 0.0 #ArI (from Photron)
+6911.2264 0.0 #ThI (from Photron)
+6937.6642 0.0 #ArI (from Photron)
+6943.6105 0.0 #ThI (from Photron)
+6965.4307 0.0 #ArI (from Photron)
+6989.6489 0.0 #interpolated with R5-findarc
+7030.2402 0.0 #interpolated with R5-findarc
+7067.2181 0.0 #ArI (from Photron)
+7147.0416 0.0 #ArI (from Photron)
+7168.8281 0.0 #interpolated with R5-findarc
+7206.9717 0.0 #interpolated with R5-findarc
+7272.9359 0.0 #ArI (from Photron)
+7311.7695 0.0 #interpolated with R5-findarc
+7316.0381 0.0 #interpolated with R5-findarc

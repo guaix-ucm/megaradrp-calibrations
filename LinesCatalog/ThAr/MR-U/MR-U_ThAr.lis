@@ -1,0 +1,80 @@
+# MR-U Nico's version
+# Some wavelengths have been extrated from:
+# http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html
+#------------------------------------------------------------------------------
+##3925.0934  1 #ThI (from Photron) Too faint, easy to confuse with next one
+3925.7205  0 # manually interpolated with R5-findarc, weak line
+3928.6348  0 # manually interpolated with R5-findarc, weak line
+##3929.6693  1 #ThII (from Photron) Too faint, easy to confuse with previous one
+3932.6357  0 # manually interpolated with R5-findarc, weak line
+##3932.9113  1 #ThI (from Photron) Too faint, easy to confuse with previous one
+##3944.2759  0 # manually interpolated with R5-findarc, weak line
+3946.1455  1 #ThII (from Photron)
+##3948.0305  1 #ThI (from Photron) Too faint, easy to confuse with next one
+3949.0037  0 # manually interpolated with R5-findarc, weak line
+3950.3951  1 #ThI (from Photron)
+##3952.7705  0 # manually interpolated with R5-findarc, weak line
+3967.3921  1 #ThI (from Photron)
+3968.3933  0 # manually interpolated with R5-findarc, weak line
+3972.1545  1 #Th (from Photron)
+3974.5056  0 # manually interpolated with R5-findarc, weak line
+3979.3691  0 # manually interpolated with R5-findarc, weak line
+3994.7791  0 # manually interpolated with R5-findarc, weak line
+4008.2019  0 # manually interpolated with R5-findarc, weak line
+4012.4952  1 #ThI (from Photron)
+4013.8479  0 # manually interpolated with R5-findarc, weak line
+4019.1289  1 #ThII (from Photron)
+4030.8424  1 #ThI (from Photron)
+4033.8110  0 # manually interpolated with R5-findarc, weak line
+4035.4719  0 # manually interpolated with R5-findarc, weak line
+4036.0479  1 #ThI (from Photron)
+4042.9094  0 # manually interpolated with R5-findarc, weak line
+4044.4124  0 # manually interpolated with R5-findarc, weak line
+4045.8982  0 # manually interpolated with R5-findarc, weak line
+4052.9277  0 # manually interpolated with R5-findarc, weak line
+4072.0047  1 #ArII (from Photron)
+4076.7319  0 # manually interpolated with R5-findarc, weak line
+4079.5684  0 # manually interpolated with R5-findarc, weak line
+4080.6570  0 # manually interpolated with R5-findarc, weak line
+4082.3682  0 # manually interpolated with R5-findarc, weak line
+4086.5205  1 #ThII (from Photron)
+4094.7470  1 #ThII (from Photron)
+4097.1631  0 # manually interpolated with R5-findarc, weak line
+4097.7378  0 # manually interpolated with R5-findarc, weak line
+4100.3414  1 #ThI (from Photron)
+4103.9121  1 #ArII (from Photron)
+4108.4297  0 # manually interpolated with R5-findarc, weak line
+4112.7545  1 #ThI (from Photron)
+4115.7427  0 # manually interpolated with R5-findarc, weak line
+4116.7137  1 #ThII (from Photron)
+4131.7235  1 #ArII (from Photron)
+4156.0913  0 # manually interpolated with R5-findarc, weak line
+4158.5905  1 #ArI (from Photron)
+4164.1690  0 # manually interpolated with R5-findarc, weak line
+4165.7402  0 # manually interpolated with R5-findarc, weak line
+4170.5254  0 # manually interpolated with R5-findarc, weak line
+4179.2656  0 # manually interpolated with R5-findarc, weak line
+4181.8623  0 # manually interpolated with R5-findarc, weak line
+4190.7139  0 # manually interpolated with R5-findarc, weak line
+4191.0181  0 # manually interpolated with R5-findarc, weak line
+4198.3170  1 #ArI (from Photron)
+4200.6745  1 #ArI (from Photron)
+4201.9536  0 # manually interpolated with R5-findarc, weak line
+4203.4258  0 # manually interpolated with R5-findarc, weak line
+4208.8613  0 # manually interpolated with R5-findarc, weak line
+4210.9232  1 #ThI (from Photron)
+4217.4224  0 # manually interpolated with R5-findarc, weak line
+4218.6597  0 # manually interpolated with R5-findarc, weak line
+4222.6357  0 # manually interpolated with R5-findarc, weak line
+4226.9717  0 # manually interpolated with R5-findarc, weak line
+4228.1470  0 # manually interpolated with R5-findarc, weak line
+4229.8667  0 # manually interpolated with R5-findarc, weak line
+4235.4502  0 # manually interpolated with R5-findarc, weak line
+4237.2056  0 # manually interpolated with R5-findarc, weak line
+4250.3159  0 # manually interpolated with R5-findarc, weak line
+4251.1870  0 # manually interpolated with R5-findarc, weak line
+4257.5054  0 # manually interpolated with R5-findarc, weak line
+4259.3619  1 #ArI (from Photron)
+4266.3633  0 # manually interpolated with R5-findarc, weak line
+4272.1655  0 # manually interpolated with R5-findarc, weak line
+4277.5282  1 #ArII (from Photron)

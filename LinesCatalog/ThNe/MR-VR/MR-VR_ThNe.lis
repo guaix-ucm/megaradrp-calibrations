@@ -1,0 +1,50 @@
+# MR-VR Nico's version
+# ThI wavelengths have been extrated from:
+# http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html
+# (Ar lines from that list have been removed).
+# Ne wavelengths were initially identified in:
+# http://www.ctio.noao.edu/noao/content/reference-spectra
+# http://www.ctio.noao.edu/noao/sites/default/files/instruments/spectrographs/hydne.dat
+# but then they were refined using:
+# http://physics.nist.gov/PhysRefData/ASD/lines_form.html
+#------------------------------------------------------------------------------
+5852.4878  20000  # NeI from NIST
+5872.8275   5000  # NeI from NIST
+5881.8950  10000  # NeI from NIST
+5902.4961      0  # Interpolated with R5-findarc
+5906.4294    500  # NeI from NIST
+5913.6330   2500  # NeI from NIST
+5918.9068   2500  # NeI from NIST
+5944.8340   5000  # NeI from NIST
+5961.5967      0  # Interpolated with R5-findarc
+5965.4710   5000  # NeI from NIST
+5975.5343   6000  # NeI from NIST
+5987.9074   1500  # NeI from NIST
+5991.6477    750  # NeI from NIST
+5994.1079      0  # Interpolated with R5-findarc
+6000.9275   1000  # NeI from NIST
+6029.9968  10000  # NeI from NIST
+6064.5359    500  # NeI from NIST
+6074.3376  10000  # NeI from NIST
+6096.1630   3000  # NeI from NIST
+6118.0187    150  # NeI from NIST
+6128.4498   1000  # NeI from NIST
+6143.0627  10000  # NeI from NIST
+6150.2985   1000  # NeI from NIST
+6163.5937  10000  # NeI from NIST
+6182.1460   1500  # NeI from NIST
+6213.8758   1500  # NeI from NIST
+6217.2812  10000  # NeI from NIST
+6246.7294   1000  # NeI from NIST
+6266.4952  10000  # NeI from NIST
+6293.7447   1000  # NeI from NIST
+6304.7893   1000  # NeI from NIST
+6328.1646   3000  # NeI from NIST
+6330.8894   1500  # NeI from NIST
+6334.4276  10000  # NeI from NIST
+6351.8532   1000  # NeI from NIST
+6382.9914  10000  # NeI from NIST
+6402.2480  20000  # NeI from NIST
+6409.7469   1500  # NeI from NIST
+6444.7118   1500  # NeI from NIST
+6457.2515      0  # Interpolated with R5-findarc

@@ -1,0 +1,155 @@
+#LR-V Nico's version
+# Some wavelengths were initially extrated from:
+# http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html
+# but they were refined using:
+# http://physics.nist.gov/PhysRefData/ASD/lines_form.html
+#------------------------------------------------------------------------------
+5141.7826    224 # ArII from NIST
+5145.3080    162 # ArII from NIST
+5151.6119   6000 # ThI from NIST faint
+5154.2430     20 # ArI from NIST faint
+5158.6042  16000 # ThI from NIST
+5162.2850     15 # ArI from NIST
+#5165.7727     48 # ArII from NIST faint
+#5176.9611   5000 # ThI from NIST faint
+5187.7460     20 # ArI from NIST
+#5195.8136   5100 # ThI from NIST faint
+5199.1638   9200 # ThI from NIST
+5209.0700      0 # interpolated with R5-findarc
+5211.2303   6900 # ThI from NIST faint and too close to previous one
+#5213.3492   2500 # ThI from NIST faint
+#5216.8140     28 # ArII from NIST faint
+#5219.1099   4400 # ThI from NIST faint
+#5221.2710      7 # ArI from NIST faint
+5231.1596  15000 # ThI from NIST
+#5239.5521   1800 # ThI from NIST faint
+#5247.6546   1900 # ThI from NIST faint
+#5252.7870      0 # ArI from NIST faint
+5258.3602   9200 # ThI from NIST
+#5266.7102   4600 # ThI from NIST faint
+#5274.1187   1800 # ThI from NIST faint
+#5281.6295     21 # ArII from NIST faint
+#5286.8866     18 # ArII from NIST faint
+#5298.0127   2000 # ThI from NIST (average of 5297.74301 and 5298.28247) faint
+5312.1557      0 # ThI from NIST modified with residual in wave. calibration
+#5326.9757   4400 # ThI from NIST faint
+5343.5812  11000 # ThI from NIST
+#5358.3797     14 # ArII from NIST faint
+#5360.1500   2200 # ThI from NIST faint
+#5369.2817    900 # ThI from NIST faint
+#5374.8218   1800 # ThI from NIST faint
+#5379.0134   3300 # ThI from NIST (w.mean of 5378.83571 and 5379.11036) faint
+#5386.6105   4700 # ThI from NIST faint
+#5390.4256   2400 # ThI from NIST faint
+#5394.7607   4100 # ThI from NIST faint
+#5398.7015   1300 # ThI from NIST faint
+#5407.6535   4900 # ThI from NIST faint
+#5410.7688   3700 # ThI from NIST faint
+5417.4858  12000 # ThI from NIST
+#5421.3520      5 # ArI from NIST faint
+#5431.1118   3100 # ThI from NIST faint
+#5439.9890      0 # ArI from NIST faint
+#5443.1187    600 # ThII from NIST faint
+###5451.6520     10 # ArI from NIST
+###5452.2187   3800 # ThI from NIST
+5451.9534      0 # Average of 5451.6520 (ArI) and 5452.2187 (ThI) from NIST
+#5457.4160      0 # ArI from NIST faint
+5465.4575       0 # interpolated with R5-findarc
+#5492.6433   2800 # ThI from NIST faint
+5495.8740     25 # ArI from NIST
+5499.2552  11000 # ThI from NIST
+#5506.1130      5 # ArI from NIST faint
+#5509.9936   5400 # ThI from NIST faint
+#5524.9570      0 # ArI from NIST faint
+5539.2618  14000 # ThI from NIST
+#5548.1760   5100 # ThI from NIST faint
+#5554.0227     29 # ArII from NIST faint
+5558.5874      0 # interpolated with R5-findarc
+###5572.7451      0 # interpolated with R5-findarc
+###5573.3536  10000 # ThI from NIST
+5573.1000      0 # interpolated from residuals
+5579.3584   4900 # ThI from NIST
+5587.0264  20000 # ThI from NIST
+#5595.0637   4900 # ThI from NIST faint
+5601.6032   5000 # ThI from NIST
+5606.7330     35 # ArI from NIST
+5615.3195   7100 # ThI from NIST
+#5639.7463   2800 # ThI from NIST faint
+#5648.9909   1500 # ThI from NIST faint
+5650.7040     20 # ArI from NIST
+#5665.1798   4300 # ThI from NIST faint
+#5677.0527   1900 # ThI from NIST faint
+#5681.8990      0 # ArI from NIST faint
+#5690.1180    100 # ThI from NIST ?? faint
+#5691.6630     11 # ArII from NIST faint
+#5700.9176   2200 # ThII from NIST faint
+#5707.1033   2900 # ThII from NIST faint
+5720.1827  31000 # ThI from NIST
+#5725.3884   5300 # ThI from NIST faint
+#5739.5200     10 # ArI from NIST faint
+#5741.8288   1700 # ThI from NIST faint
+#5749.3883    830 # ThII from NIST faint
+#5753.0263   4400 # ThI from NIST faint
+5760.5506  53000 # ThI from NIST
+#5763.5288   3700 # ThI from NIST faint
+#5768.1811   2100 # ThI from NIST faint
+#5772.1140      0 # ArI from NIST faint
+#5789.6450   3400 # ThI from NIST faint
+#5792.4303   2700 # ThI from NIST faint
+#5800.8295   6000 # ThI from NIST faint
+5804.1411  18000 # ThI from NIST
+#5834.2630      5 # ArI from NIST faint
+#5853.4745   1300 # ThI from NIST faint
+5860.3100     10 # ArI from NIST
+5882.6240     15 # ArI from NIST
+#5885.7015   5200 # ThI from NIST faint
+5888.5840     25 # ArI from NIST
+5889.9863      0 # re-interpolated with R5-findarc
+5895.9722      0 # re-interpolated with R5-findarc
+5912.0850     50 # ArI from NIST
+5914.6708   5600 # ThI from NIST
+#5926.2320   3100 # ThI from NIST faint
+5928.8130     15 # ArI from NIST
+5938.8251   6200 # ThI from NIST
+#5942.6690      5 # ArI from NIST faint
+5973.6647  17000 # ThI from NIST
+#5975.0648   7400 # ThI from NIST too close to previous one faint
+#5987.3020      7 # ArI from NIST faint
+#5989.0448   3700 # ThII from NIST faint
+#5991.0070   4400 # ThI from NIST faint
+5994.1286  12000 # ThI from NIST
+#5998.9990      5 # ArI from NIST faint
+#6001.2032   1900 # ThI from NIST faint
+#6005.1649   1800 # ThI from NIST faint
+#6007.0721   4500 # ThI from NIST faint
+#6010.1605   3200 # ThI from NIST faint
+#6013.6770      0 # ArI from NIST faint
+#6021.0356   5500 # ThI from NIST faint
+#6025.1500      5 # ArI from NIST faint
+6032.127      70 # ArI from NIST
+6037.6974   7500 # ThI from NIST
+6043.2230     35 # ArI from NIST
+#6049.0510   5600 # ThI from NIST faint
+#6052.7230     10 # ArI from NIST faint
+6059.3720     20 # ArI from NIST
+#6085.3747   2200 # ThI from NIST faint
+#6088.0304   4700 # ThI from NIST faint
+#6090.7850      0 # ArI from NIST faint
+#6098.8030      7 # ArI from NIST faint
+#6102.5945   4800 # ThI from NIST faint
+#6105.6350     10 # ArI from NIST faint
+6114.9232    537 # ArI from NIST
+#6145.4410     10 # ArI from NIST
+6151.9927  10000 # ThI from NIST
+#6155.5809   2000 # ThI from NIST faint
+6164.4794   5700 # ThI from NIST
+6169.8220  18000 # ThI from NIST
+6172.2775    407 # ArII from NIST
+6182.6216  38000 # ThI from NIST
+#6188.1250   6000 # ThI from NIST faint
+#6191.9052   5900 # ThI from NIST faint
+6198.2226   9300 # ThI from NIST
+6203.4924  16000 # ThI from NIST
+6207.2200   9300 # ThI from NIST
+6224.5271   7800 # ThI from NIST
+6261.4181   8500 # ThI from NIST

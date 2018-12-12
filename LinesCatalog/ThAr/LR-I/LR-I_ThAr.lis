@@ -1,0 +1,38 @@
+# LR-I Nico's version
+# Some wavelengths have been extrated from:
+# http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html
+#------------------------------------------------------------------------------
+7272.9359 2.754e+06 # ArI (from Photron)
+#7372.128 0.0 # manually interpolated with R5-findarc, replaced below
+7372.1184 0.0 # ArI (from Photron) weak line
+7383.9805 6.804e+05 #  ArI (from Photron)
+#7435.488 0.0 # manually interpolated with R5-findarc, replaced below
+7435.3683 0.0 # ArI (from Photron) weak line
+7503.868 1.176e+06
+7514.651 1.710e+07
+7635.105 1.264e+07
+7723.9837 0.0 # this line replaces the next two (blended?) lines
+#7723.7601 3.822e+05 # ArI (from Photron)
+#7724.2072 3.534e+04 # ArI (from Photron)
+#7891.040 0.0 # manually interpolated with R5-findarc, replaced below
+7891.0750 0.0 # ArI (from Photron) weak line
+7948.176 1.441e+06
+#7979.004 0.0 # manually interpolated with R5-findarc, replaced below
+7978.9731 0.0 # ThI (from Photron) weak line
+8006.156 3.528e+05
+8014.785 9.948e+05
+#8053.307 0.0 # manually interpolated with R5-findarc, replaced below
+8053.3100 0.0 # ThI (from Photron) weak line
+8103.692 4.499e+07
+8115.311 2.449e+07
+8264.521 1.617e+06
+#8330.425 0.0 # manually interpolated with R5-findarc, replaced below
+8330.4494 0.0 # ThI (from Photron) weak line
+8408.209 4.900e+05
+8424.647 1.916e+06
+8521.441 3.053e+07
+#8605.768 0.0 # manually interpolated with R5-findarc, replaced below
+8605.7762 0.0 # ArI (from Photron) weak line
+#8620.491 0.0 # manually interpolated with R5-findarc, replaced below
+8620.4600 0.0 # ArI (from Photron) weak line
+8667.9442 6.175e+06

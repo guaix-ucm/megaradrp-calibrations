@@ -1,0 +1,32 @@
+# MR-I Nico's version
+# ThI wavelengths have been extrated from:
+# http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html
+# (Ar lines from that list have been removed).
+# Ne wavelengths were initially identified in:
+# http://www.ctio.noao.edu/noao/sites/default/files/instruments/spectrographs/hydne.dat
+# but then they were refined using:
+# http://physics.nist.gov/PhysRefData/ASD/lines_form.html
+#------------------------------------------------------------------------------
+7245.1665  77000 # NeI from NIST
+7438.8981  60000 # NeI from NIST
+7472.4383   3100 # NeI from NIST (weak)
+7488.8712  32000 # NeI from NIST
+7535.7739  28000 # NeI from NIST
+7544.0439  13000 # NeI from NIST
+7567.7415   8700 # ThI from NIST
+7585.7918   7900 # ThI from NIST
+7647.3793  15000 # ThI from NIST
+7687.7900      0 # interpolated with R5-findarc and refined with residuals
+7724.6233     60 # NeI from NIST (not sure)
+7788.9341   7000 # ThI from NIST (weak)
+7817.7699  13000 # ThI from NIST (weak)
+7839.0520    230 # NeI from NIST (weak)
+7847.5394  15000 # ThI from NIST (weak)
+7927.1172    300 # NeI from NIST (weak)
+7936.9957   1300 # NeI from NIST (weak and close to next one)
+7943.1805   7900 # NeI from NIST
+7978.9732  27000 # ThI from NIST
+8082.4576   5700 # NeI from NIST
+8118.5495   3800 # NeI from NIST (weak)
+8128.9110   1200 # NeI from NIST (too weak and close to the next one)
+8136.4061  17000 # NeI from NIST
