@@ -7,34 +7,34 @@
 # but then they were refined using:
 # http://physics.nist.gov/PhysRefData/ASD/lines_form.html
 #------------------------------------------------------------------------------
-6382.9914  10000  # NeI from NIST
-6402.2480  20000  # NeI from NIST
-6409.7469   1500  # NeI from NIST (weak)
-6421.7044   1000  # NeI from NIST (weak)
-#6411.8991   1 ThI
-6444.7118   1500  # NeI from NIST (weak)
-6457.2824   1 # ThI from Photron (weak)
-#6490.7372   1 ThI
-6506.5277  15000  # NeI from NIST
-6532.8824   1000  # NeI from NIST
-#6512.3639   1 ThI
-#6531.3418   1 ThI
-#6554.1603   1 ThI
-#6577.2146   1 ThI
-6583.9060   1 # ThI from Photron (weak)
-6588.5396   1 # ThI from Photron (weak)
-6591.4845   1 # ThI from Photron (weak)
-6593.9391   1 # ThI from Photron (weak)
-6598.9528  10000  # NeI from NIST
-6602.9007   1000  # NeI from NIST (weak)
-6652.0925   1500  # NeI from NIST (weak)
-6662.2686   1 # ThI from Photron (weak)
-6666.8920   1000  # NeI from NIST (weak)
-6678.2766   5000  # NeI from NIST
-6717.0430    700  # NeI from NIST
-6738.0320    700  # NeI from NIST (weak)
-6756.4528   1 # ThI from Photron (weak)
-6759.5821    150  # NeI from NIST (weak)
-#6834.9246   1 ThI
-#6911.2264   1 ThI
-6929.4672  100000  # NeI from NIST
+6382.9914  0  10000  # NeI from NIST
+6402.2480  1  20000  # NeI from NIST
+6409.7469  0   1500  # NeI from NIST (weak)
+#6411.8991  1      1  # ThI
+6421.7044  0   1000  # NeI from NIST (weak)
+6444.7118  0   1500  # NeI from NIST (weak)
+6457.2824  0      1  # ThI from Photron (weak)
+#6490.7372  1      1  # ThI
+6506.5277  1  15000  # NeI from NIST
+#6512.3639  1      1  # ThI
+#6531.3418  1      1  # ThI
+6532.8824  1   1000  # NeI from NIST
+#6554.1603  1      1  # ThI
+#6577.2146  1      1  # ThI
+6583.9060  0      1  # ThI from Photron (weak)
+6588.5396  0      1  # ThI from Photron (weak)
+6591.4845  0      1  # ThI from Photron (weak)
+6593.9391  0      1  # ThI from Photron (weak)
+6598.9528  1  10000  # NeI from NIST
+6602.9007  0   1000  # NeI from NIST (weak)
+6652.0925  0   1500  # NeI from NIST (weak)
+6662.2686  0      1  # ThI from Photron (weak)
+6666.8920  0   1000  # NeI from NIST (weak)
+6678.2766  1   5000  # NeI from NIST
+6717.0430  1    700  # NeI from NIST
+6738.0320  0    700  # NeI from NIST (weak)
+6756.4528  0      1  # ThI from Photron (weak)
+6759.5821  0    150  # NeI from NIST (weak)
+#6834.9246  1      1  # ThI
+#6911.2264  1      1  # ThI
+6929.4672  1  100000 # NeI from NIST
