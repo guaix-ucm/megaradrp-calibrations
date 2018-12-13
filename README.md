@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/161549333.svg)](https://zenodo.org/badge/latestdoi/161549333)
+
 ## About ##
 This dataset are calibration files used by the MEGARA pipeline
 
