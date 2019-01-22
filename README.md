@@ -12,6 +12,13 @@ The copyright holder is the Universidad Complutense de Madrid.
 
 These are made available under the terms of the Creative Commons Attribution 4.0 International license.
 
+## Citation ##
+
+If you use this dataset in your processing og MEGARA data, please cite the reference given in the Zenodo link in this file,
+currently https://zenodo.org/record/2270518
+
+For repeatability, please cite the exact version of the dataset you are using.
+
 ## Main author ##
 
 Send any comment about this dataset to:
