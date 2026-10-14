@@ -1,40 +1,51 @@
-# HR-R Nico's version
-# ThI wavelengths have been extrated from:
-# http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html
-# (Ar lines from that list have been removed).
-# Ne wavelengths were initially identified in:
-# http://www.ctio.noao.edu/noao/sites/default/files/instruments/spectrographs/hydne.dat
-# but then they were refined using:
-# http://physics.nist.gov/PhysRefData/ASD/lines_form.html
-#------------------------------------------------------------------------------
-6382.9914  0  10000  # NeI from NIST
-6402.2480  1  20000  # NeI from NIST
-6409.7469  0   1500  # NeI from NIST (weak)
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: wavelength, unit: Angstrom, datatype: float64, description: Wavelength of the line}
+# - {name: flag, datatype: int64, description: '1: bright enough subsample, used in the initial calibration; 0: faint subsample'}
+# - {name: intensity, datatype: int64, description: Relative intensity (NIST)}
+# - {name: comment, datatype: string, description: Comment}
+# meta: !!omap
+# - {instrument: MEGARA}
+# - {type: LinesCatalog}
+# - {profile: ca3558e3-e50d-4bbc-86bd-da50a0998a48}
+# - {uuid: e345fe45-8de3-400a-95cd-dd923160184e}
+# - tags: {speclamp: ThNe, vph: HR-R}
+# - {description: HR-R Nico's version}
+# - references:
+#   - {note: 'ThI wavelengths have been extracted from this list, without its Ar lines', url: 'http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html'}
+#   - {note: Ne wavelengths were initially identified in, url: 'http://www.ctio.noao.edu/noao/sites/default/files/instruments/spectrographs/hydne.dat'}
+#   - {note: but then they were refined using, url: 'http://physics.nist.gov/PhysRefData/ASD/lines_form.html'}
+# schema: astropy-2.0
+wavelength flag intensity comment
+6382.9914 0 10000 "NeI from NIST"
+6402.248 1 20000 "NeI from NIST"
+6409.7469 0 1500 "NeI from NIST (weak)"
 #6411.8991  1      1  # ThI
-6421.7044  0   1000  # NeI from NIST (weak)
-6444.7118  0   1500  # NeI from NIST (weak)
-6457.2824  0      1  # ThI from Photron (weak)
+6421.7044 0 1000 "NeI from NIST (weak)"
+6444.7118 0 1500 "NeI from NIST (weak)"
+6457.2824 0 1 "ThI from Photron (weak)"
 #6490.7372  1      1  # ThI
-6506.5277  1  15000  # NeI from NIST
+6506.5277 1 15000 "NeI from NIST"
 #6512.3639  1      1  # ThI
 #6531.3418  1      1  # ThI
-6532.8824  1   1000  # NeI from NIST
+6532.8824 1 1000 "NeI from NIST"
 #6554.1603  1      1  # ThI
 #6577.2146  1      1  # ThI
-6583.9060  0      1  # ThI from Photron (weak)
-6588.5396  0      1  # ThI from Photron (weak)
-6591.4845  0      1  # ThI from Photron (weak)
-6593.9391  0      1  # ThI from Photron (weak)
-6598.9528  1  10000  # NeI from NIST
-6602.9007  0   1000  # NeI from NIST (weak)
-6652.0925  0   1500  # NeI from NIST (weak)
-6662.2686  0      1  # ThI from Photron (weak)
-6666.8920  0   1000  # NeI from NIST (weak)
-6678.2766  1   5000  # NeI from NIST
-6717.0430  1    700  # NeI from NIST
-6738.0320  0    700  # NeI from NIST (weak)
-6756.4528  0      1  # ThI from Photron (weak)
-6759.5821  0    150  # NeI from NIST (weak)
+6583.906 0 1 "ThI from Photron (weak)"
+6588.5396 0 1 "ThI from Photron (weak)"
+6591.4845 0 1 "ThI from Photron (weak)"
+6593.9391 0 1 "ThI from Photron (weak)"
+6598.9528 1 10000 "NeI from NIST"
+6602.9007 0 1000 "NeI from NIST (weak)"
+6652.0925 0 1500 "NeI from NIST (weak)"
+6662.2686 0 1 "ThI from Photron (weak)"
+6666.892 0 1000 "NeI from NIST (weak)"
+6678.2766 1 5000 "NeI from NIST"
+6717.043 1 700 "NeI from NIST"
+6738.032 0 700 "NeI from NIST (weak)"
+6756.4528 0 1 "ThI from Photron (weak)"
+6759.5821 0 150 "NeI from NIST (weak)"
 #6834.9246  1      1  # ThI
 #6911.2264  1      1  # ThI
-6929.4672  1  100000 # NeI from NIST
+6929.4672 1 100000 "NeI from NIST"

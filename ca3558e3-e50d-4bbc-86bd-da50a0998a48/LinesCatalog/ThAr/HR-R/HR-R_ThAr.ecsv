@@ -1,43 +1,57 @@
-#HR-R Nico's version
-# Some wavelengths have been extrated from:
-# http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html
-#------------------------------------------------------------------------------
-6411.8991 1 0 #ThI (from Photron) too weak?
-6416.3071 1 0 #ArI (from Photron)
-6457.2824 1 0 #ThI (from Photron)
-6462.6060 1 0 #interpolated with R5-findarc
-6466.5571 1 0 #interpolated with R5-findarc
-6483.0825 1 0 #ArII (from Photron)
-6490.7372 1 0 #ThI (from Photron)
-6512.3639 1 0 #ThI (from Photron)
-6531.3418 1 0 #ThI (from Photron)
-6538.1120 1 0 #ArI (from Photron)
-6554.1603 1 0 #ThI (from Photron)
-6577.2146 1 0 #ThI (from Photron)
-6583.9060 1 0 #ThI (from Photron)
-6588.5396 1 0 #ThI (from Photron)
-6591.4845 1 0 #ThI (from Photron)
-6593.9391 1 0 #ThI (from Photron)
-6604.8534 1 0 #ArI (from Photron)
-6638.2207 1 0 #ArI (from Photron)
-6638.9119 1 0 #ThI (from Photron) # faint line
-6639.7403 1 0 #ArI (from Photron)
-6643.6976 1 0 #ArII (from Photron)
-6644.6635 1 0 #Th  (from Photron) # faint line
-6656.9424 1 0 #interpolated with R5-findarc, faint line
-6658.6821 1 0 #interpolated with R5-findarc, faint line
-6660.6699 1 0 #interpolated with R5-findarc, faint line
-6662.2686 1 0 #ThI (from Photron)
-6664.0435 1 0 #interpolated with R5-findarc
-6666.3588 1 0 #ArII (from Photron)
-6674.6958 1 0 #interpolated with R5-findarc
-6677.2817 1 0 #ArI (from Photron)
-6684.2944 1 0 #interpolated with R5-findarc
-6698.8779 1 0 #interpolated with R5-findarc
-6713.9746 1 0 #interpolated with R5-findarc
-6719.2139 1 0 #interpolated with R5-findarc
-6727.4497 1 0 #interpolated with R5-findarc
-6752.8335 1 0 #ArI (from Photron)
-6756.4528 1 0 #ThI (from Photron)
-6766.6084 1 0 #interpolated with R5-findarc
-6778.3123 1 0 #ThI (from Photron)
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: wavelength, unit: Angstrom, datatype: float64, description: Wavelength of the line}
+# - {name: flag, datatype: int64, description: '1: bright enough subsample, used in the initial calibration; 0: faint subsample'}
+# - {name: intensity, datatype: int64, description: Relative intensity (NIST)}
+# - {name: comment, datatype: string, description: Comment}
+# meta: !!omap
+# - {instrument: MEGARA}
+# - {type: LinesCatalog}
+# - {profile: ca3558e3-e50d-4bbc-86bd-da50a0998a48}
+# - {uuid: 41561489-87ee-4431-881b-1a0df6b5f8b1}
+# - tags: {speclamp: ThAr, vph: HR-R}
+# - {description: HR-R Nico's version}
+# - references:
+#   - {note: Some wavelengths have been extracted from, url: 'http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html'}
+# schema: astropy-2.0
+wavelength flag intensity comment
+6411.8991 1 0 "ThI (from Photron) too weak?"
+6416.3071 1 0 "ArI (from Photron)"
+6457.2824 1 0 "ThI (from Photron)"
+6462.606 1 0 "interpolated with R5-findarc"
+6466.5571 1 0 "interpolated with R5-findarc"
+6483.0825 1 0 "ArII (from Photron)"
+6490.7372 1 0 "ThI (from Photron)"
+6512.3639 1 0 "ThI (from Photron)"
+6531.3418 1 0 "ThI (from Photron)"
+6538.112 1 0 "ArI (from Photron)"
+6554.1603 1 0 "ThI (from Photron)"
+6577.2146 1 0 "ThI (from Photron)"
+6583.906 1 0 "ThI (from Photron)"
+6588.5396 1 0 "ThI (from Photron)"
+6591.4845 1 0 "ThI (from Photron)"
+6593.9391 1 0 "ThI (from Photron)"
+6604.8534 1 0 "ArI (from Photron)"
+6638.2207 1 0 "ArI (from Photron)"
+6638.9119 1 0 "ThI (from Photron) # faint line"
+6639.7403 1 0 "ArI (from Photron)"
+6643.6976 1 0 "ArII (from Photron)"
+6644.6635 1 0 "Th  (from Photron) # faint line"
+6656.9424 1 0 "interpolated with R5-findarc, faint line"
+6658.6821 1 0 "interpolated with R5-findarc, faint line"
+6660.6699 1 0 "interpolated with R5-findarc, faint line"
+6662.2686 1 0 "ThI (from Photron)"
+6664.0435 1 0 "interpolated with R5-findarc"
+6666.3588 1 0 "ArII (from Photron)"
+6674.6958 1 0 "interpolated with R5-findarc"
+6677.2817 1 0 "ArI (from Photron)"
+6684.2944 1 0 "interpolated with R5-findarc"
+6698.8779 1 0 "interpolated with R5-findarc"
+6713.9746 1 0 "interpolated with R5-findarc"
+6719.2139 1 0 "interpolated with R5-findarc"
+6727.4497 1 0 "interpolated with R5-findarc"
+6752.8335 1 0 "ArI (from Photron)"
+6756.4528 1 0 "ThI (from Photron)"
+6766.6084 1 0 "interpolated with R5-findarc"
+6778.3123 1 0 "ThI (from Photron)"
