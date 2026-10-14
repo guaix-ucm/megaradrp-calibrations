@@ -1,0 +1,180 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: wavelength, unit: Angstrom, datatype: float64, description: Wavelength of the line}
+# - {name: flag, datatype: int64, description: '1: bright enough subsample, used in the initial calibration; 0: faint subsample'}
+# - {name: intensity, datatype: int64, description: Relative intensity (NIST)}
+# - {name: comment, datatype: string, description: Comment}
+# meta: !!omap
+# - {instrument: MEGARA}
+# - {type: LinesCatalog}
+# - {profile: ca3558e3-e50d-4bbc-86bd-da50a0998a48}
+# - {uuid: 06c0c76a-d1af-4f08-8543-6e401bdf97b2}
+# - tags: {speclamp: ThAr, vph: MR-G}
+# - {description: MR-G Nico's version}
+# - references:
+#   - {url: 'http://physics.nist.gov/PhysRefData/ASD/lines_form.html'}
+# schema: astropy-2.0
+wavelength flag intensity comment
+4945.4585 0 6600 "ThI from NIST"
+4956.75 0 0 "ArI from NIST"
+4965.0794 1 891 "ArII from NIST"
+4972.1599 0 100 "ArII from NIST"
+4982.4875 0 1600 "ThI from NIST"
+4985.3724 0 3700 "ThI from NIST"
+4989.3086 0 1500 "ThI from NIST"
+4993.7489 0 560 "ThI from NIST"
+5002.0971 1 7800 "ThI from NIST"
+5009.3342 1 355 "ArII from NIST"
+5017.1626 1 7413 "ArII from NIST"
+5019.8061 0 2000 "ThI from NIST"
+5028.6556 0 6100 "ThI from NIST"
+5029.8917 0 1300 "ThI from NIST"
+5039.2303 0 5300 "ThI from NIST"
+5044.7195 1 9700 "ThI from NIST"
+5047.0435 0 2400 "ThI from NIST"
+5048.811 0 0 "ArI from NIST"
+5049.7961 0 2400 "ThII from NIST"
+5050.7842 0 2600 "ThI from NIST"
+5051.8886 0 1300 "ThI from NIST"
+5054.176 0 0 "ArI from NIST"
+5055.3473 0 960 "ThII from NIST"
+#5059.8610  0.0   2200 # ThI from NIST
+#5060.0790  0.0      0 # ArI from NIST
+5059.97 0 0 "Average of two previous lines"
+5062.037 1 398 "ArII from NIST"
+5064.9454 0 4700 "ThI from NIST"
+5067.9738 1 15000 "ThI from NIST"
+5073.076 0 0 "ArI from NIST"
+5081.4461 0 670 "ThI from NIST"
+5087.084 0 0 "ArI from NIST"
+5090.4948 1 45 "ArII from NIST"
+5096.4848 0 2700 "ThI from NIST"
+5100.6211 0 3500 "ThI from NIST"
+5111.2782 0 1200 "ThI from NIST"
+5115.0447 1 6800 "ThI from NIST"
+5118.202 0 0 "ArI from NIST"
+5125.7663 1 17 "ArII from NIST"
+5125.9503 0 1400 "ThI from NIST"
+5134.7459 0 2100 "ThI from NIST"
+5141.7826 1 224 "ArII from NIST"
+5143.2673 0 900 "ThII from NIST"
+5143.9165 0 2900 "ThI from NIST"
+5145.308 1 162 "ArII from NIST"
+5148.2115 0 910 "ThII from NIST"
+5151.6119 1 6000 "ThI from NIST"
+5152.8606 0 0 "ArII from NIST"
+5154.243 1 20 "ArI from NIST"
+5158.6042 1 16000 "ThI from NIST"
+5159.6203 0 390 "ThI from NIST"
+5160.693 0 780 "ThI/ThII from NIST"
+5161.5396 0 2200 "ThI from NIST"
+5162.285 1 15 "ArI from NIST"
+5163.4584 0 3000 "ThI from NIST"
+5165.7727 0 48 "ArII from NIST"
+5173.6716 0 630 "ThI from NIST"
+5176.229 0 26 "ArII from NIST"
+5176.9611 0 5000 "ThI from NIST"
+5177.536 0 0 "ArI from NIST"
+5187.746 1 20 "ArI from NIST"
+5192.733 0 0 "ArI from NIST"
+5193.8256 0 600 "ThII from NIST"
+5194.4576 0 1900 "ThI from NIST"
+5195.8136 0 5100 "ThI from NIST"
+5199.1638 1 9200 "ThI from NIST"
+5202.1929 0 5 "ArII from NIST"
+5206.4956 0 650 "ThII from NIST"
+5209.07 1 0 "interpolated with R5-findarc"
+5211.2303 1 6900 "ThI from NIST, too close to previous one"
+5213.3492 0 2500 "ThI from NIST"
+5214.774 0 0 "ArI from NIST"
+#5216.5967  0.0    850 # ThII from NIST
+#5216.8140  0.0     28 # ArII from NIST
+5216.7054 0 0 "average of previous two lines"
+5219.1099 0 4400 "ThI from NIST"
+5221.271 1 7 "ArI from NIST"
+5231.1596 1 15000 "ThI from NIST"
+5233.2254 0 990 "ThII from NIST"
+5238.8138 0 2100 "ThI from NIST"
+5239.5521 0 1800 "ThI from NIST"
+5240.1967 0 640 "ThII from NIST"
+5241.093 0 0 "ArI from NIST"
+5245.3778 0 7 "ArII from NIST"
+5247.6546 0 1900 "ThI from NIST"
+5252.787 0 0 "ArI from NIST"
+5254.471 0 0 "ArI from NIST"
+5256.5636 0 8 "ArII from NIST"
+5258.3602 1 9200 "ThI from NIST"
+5260.1042 0 1500 "ThI from NIST"
+5264.7819 0 17 "ArII from NIST"
+5266.7102 1 4600 "ThI from NIST"
+#5267.9580  0.0      3 # ArII from NIST
+#5268.2460  0.0      3 # ArII from NIST
+5268.102 0 0 "average of previous two lines"
+5269.761 0 4 "ArII from NIST"
+5272.9268 0 710 "ThI from NIST"
+5274.1187 0 1800 "ThI from NIST"
+5281.0687 0 1300 "ThI from NIST"
+5281.6295 0 21 "ArII from NIST"
+5286.069 0 0 "ArI from NIST"
+5286.8866 0 18 "ArII from NIST"
+5290.015 0 0 "ArI from NIST"
+#5296.2786  0.0   1800 # ThI from NIST
+#5296.3883  0.0      7 # ArII from NIST
+5296.3335 0 0 "average of previous two lines"
+5294.397 0 1300 "ThI from NIST"
+5297.743 0 2000 "ThI from NIST"
+5298.2825 0 2000 "ThI from NIST"
+#5300.5234  0.0   1100 # ThI from NIST
+#5300.7745  0.0      8 # ArII from NIST
+5300.649 0 0 "average of previous two lines"
+5305.6856 0 15 "ArII from NIST"
+5307.4655 0 890 "ThII from NIST"
+5312.0017 1 7300 "ThI from NIST"
+5312.5288 0 3400 "ThI from NIST"
+5315.215 0 4 "ArII from NIST"
+5317.4943 0 1500 "ThI from NIST"
+5326.9757 1 4400 "ThI from NIST"
+5329.6992 0 10 "ArII from NIST"
+5331.0417 0 3 "ArII from NIST"
+5343.5812 1 11000 "ThI from NIST"
+5358.3797 1 14 "ArII from NIST"
+5360.15 1 2200 "ThI from NIST"
+5362.5752 0 790 "ThI from NIST"
+#5369.2817  0.0    900 # ThI from NIST
+#5369.4470  0.0    720 # ThI from NIST
+5369.3644 0 0 "average of previous two lines"
+5370.7095 0 570 "ThI from NIST"
+5373.494 0 0 "ArI from NIST"
+5374.8218 0 1800 "ThI from NIST"
+5379.1103 1 3300 "ThI from NIST"
+5382.9274 0 590 "ThII from NIST"
+5384.3012 0 270 "ThI from NIST"
+5386.6105 1 4700 "ThI from NIST"
+5390.4256 1 2400 "ThI from NIST"
+5392.5728 0 770 "ThII from NIST"
+5394.7607 1 4100 "ThI from NIST"
+5397.5164 0 35 "ArII from NIST"
+#5398.7015  0.0   1300 # ThI from NIST
+#5398.9221  0.0    940 # ThI from NIST
+5398.8118 0 0 "average of previous two lines"
+5402.6051 0 15 "ArII from NIST"
+5407.6535 1 4900 "ThI from NIST"
+5410.7688 1 3700 "ThI from NIST"
+5415.5226 0 1600 "ThI from NIST"
+5417.4858 1 12000 "ThI from NIST"
+5421.352 1 5 "ArI from NIST"
+5424.0078 0 2500 "ThI from NIST"
+5425.6783 0 1200 "ThII from NIST"
+5431.1118 0 3100 "ThI from NIST"
+5434.1515 0 1400 "ThI from NIST"
+5439.989 0 0 "ArI from NIST"
+5443.1187 0 600 "ThII from NIST"
+5451.652 1 10 "ArI from NIST"
+#5452.2187  0.0   3800 # ThI from NIST
+5454.2979 0 11 "ArII from NIST"
+#5457.4160  0.0      0 # ArI from NIST
+5465.4575 0 0 "interpolated with R5-findarc"
+#5492.6433  1.0   2800 # ThI from NIST
+5495.874 0 25 "ArI from NIST"
+5499.2552 1 11000 "ThI from NIST"

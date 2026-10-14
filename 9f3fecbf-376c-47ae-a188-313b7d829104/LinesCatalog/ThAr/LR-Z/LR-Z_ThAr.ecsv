@@ -1,0 +1,49 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: wavelength, unit: Angstrom, datatype: float64, description: Wavelength of the line}
+# - {name: flag, datatype: int64, description: '1: bright enough subsample, used in the initial calibration; 0: faint subsample'}
+# - {name: intensity, datatype: int64, description: Relative intensity (NIST)}
+# - {name: comment, datatype: string, description: Comment}
+# meta: !!omap
+# - {instrument: MEGARA}
+# - {type: LinesCatalog}
+# - {profile: 9f3fecbf-376c-47ae-a188-313b7d829104}
+# - {uuid: 4fec9f99-cc2c-470a-b45c-b621932e4cb7}
+# - tags: {speclamp: ThAr, vph: LR-Z}
+# - {description: LR-Z Nico's version}
+# - references:
+#   - {note: Some wavelengths have been extracted from, url: 'http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html'}
+# schema: astropy-2.0
+wavelength flag intensity comment
+8053.3085 1 0 "ArI (from Photron) weak line"
+8103.6931 1 0 "ArI (from Photron)"
+8115.311 1 0 "ArI (from Photron)"
+8143.138 1 0 "ThI (from Photron) weak line"
+8186.9113 1 0 "ThI (from Photron) weak line"
+#8252.3936 1 0.0 # ThI (from Photron) weak line (problematic: too close to 8264.5)
+8264.5225 1 0 "ArI (from Photron)"
+8320.8554 1 0 "ThI (from Photron) weak line"
+8330.4494 1 0 "ThI (from Photron) weak line"
+8384.724 1 0 "ArI (from Photron) weak line"
+8408.2096 1 0 "ArI (from Photron)"
+8416.7269 1 0 "ThI (from Photron) weak line"
+8424.6475 1 0 "ArI (from Photron)"
+8446.5116 1 0 "ThI (from Photron) weak line"
+8478.358 1 0 "ThI (from Photron) weak line"
+8521.4422 1 0 "ArI (from Photron)"
+8573.1205 1 0 "ThI (from Photron) weak line"
+8605.7762 1 0 "ArI (from Photron) weak line"
+8620.4602 1 0 "ArI (from Photron) weak line"
+8667.9442 1 0 "ArI (from Photron)"
+8761.6862 1 0 "ArI (from Photron) weak line"
+8967.6403 1 0 "ThI (from Photron) weak line"
+9048.2501 1 0 "ThI (from Photron) weak line"
+9122.9674 1 0 "ThI (from Photron)"
+9194.6385 1 0 "ArI (from Photron) weak line"
+9224.4992 1 0 "ArI (from Photron)"
+9291.5313 1 0 "ArI (from Photron) weak line"
+9354.2198 1 0 "ArI (from Photron) weak line"
+9399.0891 1 0 "ThI (from Photron) weak line"
+9497.1891 1 0 "ThI (from Photron) weak line"
+9657.7863 1 0 "ArI (from Photron)"

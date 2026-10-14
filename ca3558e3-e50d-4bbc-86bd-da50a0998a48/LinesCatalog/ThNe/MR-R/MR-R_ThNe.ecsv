@@ -1,0 +1,72 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: wavelength, unit: Angstrom, datatype: float64, description: Wavelength of the line}
+# - {name: flag, datatype: int64, description: '1: bright enough subsample, used in the initial calibration; 0: faint subsample'}
+# - {name: intensity, datatype: int64, description: Relative intensity (NIST)}
+# - {name: comment, datatype: string, description: Comment}
+# meta: !!omap
+# - {instrument: MEGARA}
+# - {type: LinesCatalog}
+# - {profile: ca3558e3-e50d-4bbc-86bd-da50a0998a48}
+# - {uuid: 2ce21563-ad04-4670-a0d4-8033d3677592}
+# - tags: {speclamp: ThNe, vph: MR-R}
+# - {description: MR-R Nico's version}
+# - references:
+#   - {note: 'ThI wavelengths have been extracted from this list, without its Ar lines', url: 'http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html'}
+#   - {note: Ne wavelengths were initially identified in, url: 'http://www.ctio.noao.edu/noao/sites/default/files/instruments/spectrographs/hydne.dat'}
+#   - {note: but then they were refined using, url: 'http://physics.nist.gov/PhysRefData/ASD/lines_form.html'}
+# schema: astropy-2.0
+wavelength flag intensity comment
+6217.2812 1 10000 "NeI from NIST"
+6246.7294 0 1000 "NeI from NIST"
+6258.7884 0 1000 "NeI from NIST"
+6266.4952 1 10000 "NeI from NIST"
+6276.0327 0 500 "NeI from NIST"
+6293.7447 0 1000 "NeI from NIST"
+6304.7893 1 1000 "NeI from NIST"
+6313.6855 0 1500 "NeI from NIST"
+6327.2776 0 6900 "ThI from NIST"
+6328.1646 0 3000 "NeI from NIST"
+6330.8894 0 1500 "NeI from NIST"
+6334.4276 1 10000 "NeI from NIST"
+6342.8595 0 15000 "ThI from NIST"
+6348.7374 0 2600 "ThI from NIST"
+6351.8532 0 1000 "NeI from NIST"
+6364.9969 0 1000 "NeI from NIST"
+6382.9914 1 10000 "NeI from NIST"
+6402.248 1 20000 "NeI from NIST"
+6409.7469 0 1500 "NeI from NIST"
+6411.899 0 11000 "ThI from NIST"
+6421.7053 0 1000 "NeI from NIST"
+6444.7118 0 1500 "NeI from NIST"
+6457.2824 0 44000 "ThI from NIST"
+6506.5277 1 15000 "NeI from NIST"
+6532.8824 1 1000 "NeI from NIST"
+6554.1602 0 6500 "ThI from NIST"
+6577.2144 0 5800 "ThI from NIST"
+6583.9058 0 32000 "ThI from NIST"
+6588.5395 0 26000 "ThI from NIST"
+#6593.9390  0  12000 # ThI from NIST (too faint)
+6591.4843 0 21000 "ThI from NIST"
+6598.9528 1 10000 "NeI from NIST"
+#6602.9007  0   1000 # NeI from NIST (overlaps with ghost)
+6640.0095 0 100 "NeI from NIST"
+6652.0925 1 1500 "NeI from NIST"
+6662.2685 0 16000 "ThI from NIST"
+6666.892 0 1000 "NeI from NIST"
+6678.2766 1 5000 "NeI from NIST"
+6717.043 1 700 "NeI from NIST"
+6727.4582 0 4400 "ThI from NIST"
+6738.032 0 700 "NeI from NIST"
+6756.4527 0 9700 "ThI from NIST"
+6759.5855 0 150 "NeI from NIST"
+#6778.3122  0   3800 # ThI from NIST (too faint)
+#6780.1251  0   3300 # ThI from NIST 
+#6780.4130  0   4300 # ThI from NIST
+6780.2691 0 0 "average of previous two lines"
+6791.235 0 1800 "ThI from NIST"
+6829.0354 0 4400 "ThI from NIST"
+6834.9245 0 9800 "ThI from NIST"
+6874.7528 0 2900 "ThI from NIST"
+6929.4672 1 100000 "NeI from NIST"

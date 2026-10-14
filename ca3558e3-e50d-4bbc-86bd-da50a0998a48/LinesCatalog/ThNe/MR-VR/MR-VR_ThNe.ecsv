@@ -1,0 +1,94 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: wavelength, unit: Angstrom, datatype: float64, description: Wavelength of the line}
+# - {name: flag, datatype: int64, description: '1: bright enough subsample, used in the initial calibration; 0: faint subsample'}
+# - {name: intensity, datatype: int64, description: Relative intensity (NIST)}
+# - {name: comment, datatype: string, description: Comment}
+# meta: !!omap
+# - {instrument: MEGARA}
+# - {type: LinesCatalog}
+# - {profile: ca3558e3-e50d-4bbc-86bd-da50a0998a48}
+# - {uuid: 470579f3-9c06-4369-b61e-42238cb5397f}
+# - tags: {speclamp: ThNe, vph: MR-VR}
+# - {description: MR-VR Nico's version}
+# - references:
+#   - {note: 'ThI wavelengths have been extracted from this list, without its Ar lines', url: 'http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html'}
+#   - {note: Ne wavelengths were initially identified in, url: 'http://www.ctio.noao.edu/noao/content/reference-spectra'}
+#   - {note: Ne wavelengths were initially identified in, url: 'http://www.ctio.noao.edu/noao/sites/default/files/instruments/spectrographs/hydne.dat'}
+#   - {note: but then they were refined using, url: 'http://physics.nist.gov/PhysRefData/ASD/lines_form.html'}
+# schema: astropy-2.0
+wavelength flag intensity comment
+5852.4878 0 20000 "NeI from NIST"
+5868.4165 0 750 "NeI from NIST"
+5872.8275 0 5000 "NeI from NIST"
+5881.895 1 10000 "NeI from NIST"
+5889.94 0 0 "interpolated with numina-wavecalib"
+5890.0167 0 94 "ThI from NIST"
+5895.944 0 0 "interpolated with numina-wavecalib"
+5902.4622 1 500 "NeI from NIST"
+5906.4294 0 500 "NeI from NIST"
+5913.633 0 2500 "NeI from NIST"
+5918.9068 0 2500 "NeI from NIST"
+5934.4522 0 750 "NeI from NIST"
+5944.834 1 5000 "NeI from NIST"
+5961.6222 0 700 "NeI from NIST"
+5965.471 0 5000 "NeI from NIST"
+5973.6647 0 17000 "ThI from NIST"
+5975.5343 1 6000 "NeI from NIST"
+5987.9074 0 1500 "NeI from NIST"
+5991.6477 0 750 "NeI from NIST"
+5994.1287 0 12000 "ThI from NIST"
+6000.9275 0 1000 "NeI from NIST"
+6021.0356 0 5500 "ThI from NIST"
+6029.9968 1 10000 "NeI from NIST"
+6037.6974 0 7500 "ThI from NIST"
+6046.1348 0 500 "NeI from NIST"
+6049.051 0 5600 "ThI from NIST"
+6064.5359 0 500 "NeI from NIST"
+6074.3376 1 10000 "NeI from NIST"
+6096.163 1 3000 "NeI from NIST"
+6118.0187 0 150 "NeI from NIST"
+6128.4498 1 1000 "NeI from NIST"
+6143.0627 1 10000 "NeI from NIST"
+6150.2985 0 1000 "NeI from NIST"
+6151.9927 0 10000 "ThI from NIST"
+6156.138 0 500 "NeI from NIST"
+6163.5937 1 10000 "NeI from NIST"
+6169.822 0 18000 "ThI from NIST"
+6174.8829 0 700 "NeI from NIST"
+6182.146 0 1500 "NeI from NIST"
+6188.125 0 6000 "ThI from NIST"
+6189.0649 0 700 "NeI from NIST"
+6191.9052 0 5900 "ThI from NIST"
+6193.0663 0 500 "NeI from NIST"
+6198.2226 0 9300 "ThI from NIST"
+6203.4924 0 16000 "ThI from NIST"
+6205.7775 0 1000 "NeI from NIST"
+6207.22 0 9300 "ThI from NIST"
+6213.8758 0 1500 "NeI from NIST"
+6217.2812 1 10000 "NeI from NIST"
+6224.5271 0 7800 "ThI from NIST"
+6225.735 0 500 "NeI from NIST"
+6246.7294 0 1000 "NeI from NIST"
+6258.7884 0 1000 "NeI from NIST"
+6261.4188 0 8500 "ThI from NIST"
+6266.4952 1 10000 "NeI from NIST"
+6273.0141 0 700 "NeI from NIST"
+6276.0327 0 500 "NeI from NIST"
+6293.7447 0 1000 "NeI from NIST"
+6304.7893 1 1000 "NeI from NIST"
+6313.6855 0 1500 "NeI from NIST"
+6328.1646 0 3000 "NeI from NIST"
+6330.8894 0 1500 "NeI from NIST"
+6334.4276 1 10000 "NeI from NIST"
+6342.8595 0 15000 "ThI from NIST"
+6351.8532 0 1000 "NeI from NIST"
+6364.9969 0 1000 "NeI from NIST"
+6382.9914 1 10000 "NeI from NIST"
+6402.248 1 20000 "NeI from NIST"
+6409.7469 0 1500 "NeI from NIST"
+6411.899 0 11000 "ThI from NIST"
+6421.7053 0 1000 "NeI from NIST"
+6444.7118 0 1500 "NeI from NIST"
+6457.2824 0 44000 "ThI from NIST"

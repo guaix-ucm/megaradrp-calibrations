@@ -1,0 +1,58 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: wavelength, unit: Angstrom, datatype: float64, description: Wavelength of the line}
+# - {name: flag, datatype: int64, description: '1: bright enough subsample, used in the initial calibration; 0: faint subsample'}
+# - {name: intensity, datatype: int64, description: Relative intensity (NIST)}
+# - {name: comment, datatype: string, description: Comment}
+# meta: !!omap
+# - {instrument: MEGARA}
+# - {type: LinesCatalog}
+# - {profile: 9f3fecbf-376c-47ae-a188-313b7d829104}
+# - {uuid: 2fb7bb99-c51d-467a-bfee-c43443ead6d7}
+# - tags: {speclamp: ThAr, vph: HR-I}
+# - {description: HR-I Nico's version}
+# - references:
+#   - {note: Some wavelengths have been extracted from, url: 'http://iraf.noao.edu/specatlas/thar_photron/thar_photron.html'}
+# schema: astropy-2.0
+wavelength flag intensity comment
+#8330.425 1 0.0 #manually interpolated with R5-findarc, replaced below
+8330.4494 1 0 "ThI (from Photron) weak line"
+8384.607 1 0 "manually interpolated with R5-findarc, weak line"
+8392.255 1 0 "manually interpolated with R5-findarc, weak line"
+8399.2578 1 0 "ThI (from Photron) weak line"
+8408.209 1 490000 ""
+8416.7269 1 0 "ThI (from Photron) weak line"
+8421.2254 1 0 "ThI (from Photron) weak line"
+8424.647 1 1916000 ""
+8445.487 1 0 "ThI (from Photron) weak line"
+8446.5116 1 0 "ThI (from Photron) weak line"
+8464.2367 1 0 "ThI (from Photron) weak line"
+8471.826 1 0 "ThI (from Photron) weak line"
+8478.358 1 0 "ThI (from Photron) weak line"
+#8490.265 1 0.0 #manually interpolated with R5-findarc, weak line
+8490.3065 1 0 "ArI (from Photron) weak line"
+8510.624 1 0 "ThI (from Photron) weak line"
+8521.441 1 30530000 ""
+8539.793 1 0 "ThI (from Photron) weak line"
+#8554.996 1 0.0 #manually interpolated with R5-findarc, weak line
+8554.944 1 0 "ThI (from Photron) weak line"
+8573.12 1 0 "ThI (from Photron) weak line"
+#8605.768 1 0.0 #manually interpolated with R5-findarc, replaced below
+8605.7762 1 0 "ArI (from Photron) weak line"
+#8620.491 1 0.0 #manually interpolated with R5-findarc
+8620.46 1 0 "ArI (from Photron) weak line"
+8665.4855 1 0 "ThI (from Photron) weak line"
+8667.9442 1 6175000 ""
+#8678.648 1 0.0 #manually interpolated with R5-findarc, weak line
+8678.4083 1 0 "ArI (from Photron) weak line"
+8709.2341 1 0 "ThI (from Photron) weak line"
+8748.0309 1 0 "ThI (from Photron) weak line"
+8758.2434 1 0 "ThI (from Photron) weak line"
+8761.6862 1 0 "ArI (from Photron) weak line"
+8771.8602 1 0 "ArII (from Photron) weak line"
+8775.5733 1 0 "ThI (from Photron) weak line"
+8784.5621 1 0 "ThII (from Photron) weak line"
+8799.0875 1 0 "ArI (from Photron) weak line"
+8849.9316 1 0 "manually interpolated with R5-findarc, weak line"
+8868.8334 1 0 "ThI (from Photron) weak line"
