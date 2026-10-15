@@ -23,8 +23,8 @@ cookbook](https://guaix-ucm.github.io/megaradrp-cookbook/).
 The current directory structure contains calibration files corresponding to the
 instrument status during two different epochs:
 
-* **ca3558e3-e50d-4bbc-86bd-da50a0998a48**: Images obtained before January 2026
-* **9f3fecbf-376c-47ae-a188-313b7d829104**: Images obtained after January 2026
+* **ca3558e3-e50d-4bbc-86bd-da50a0998a48**: Images obtained before February 2026
+* **9f3fecbf-376c-47ae-a188-313b7d829104**: Images obtained after February 2026
 
 ## Citation ##
 
