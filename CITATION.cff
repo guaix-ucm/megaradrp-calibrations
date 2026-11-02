@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "megaradrp-calibrations: calibration files of MEGARA"
+message: >-
+  If you use this dataset, please cite it using the metadata from this
+  file, with the exact version of the dataset you are using.
+type: dataset
+authors:
+  - family-names: Cardiel
+    given-names: Nicolás
+    affiliation: Universidad Complutense de Madrid
+    orcid: "https://orcid.org/0000-0002-9334-2979"
+  - family-names: Pascual
+    given-names: Sergio
+    affiliation: Universidad Complutense de Madrid
+    orcid: "https://orcid.org/0000-0002-9351-6051"
+abstract: >-
+  Calibration files used by the MEGARA data reduction pipeline
+  (megaradrp): catalogs of arc lines, the atmospheric extinction at the
+  Roque de los Muchachos Observatory and the bad pixel masks of MEGARA,
+  the optical Integral-Field Unit and Multi-Object Spectrograph of the
+  Gran Telescopio Canarias (GTC).
+keywords:
+  - MEGARA
+  - GTC
+  - calibration
+  - data reduction
+license: CC-BY-4.0
+doi: 10.5281/zenodo.2233591
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.2233591
+    description: The concept DOI of the dataset, it resolves to the last version
+repository-code: "https://github.com/guaix-ucm/megaradrp-calibrations"

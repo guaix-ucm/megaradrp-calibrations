@@ -2,3 +2,4 @@
 *.fits.gz filter=lfs diff=lfs merge=lfs -text
 /tools export-ignore
 /.gitattributes export-ignore
+/.zenodo.json export-ignore

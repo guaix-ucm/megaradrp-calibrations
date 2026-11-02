@@ -1,0 +1,38 @@
+{
+  "title": "megaradrp-calibrations: calibration files of MEGARA",
+  "upload_type": "dataset",
+  "description": "<p>Calibration files used by the MEGARA data reduction pipeline (<a href=\"https://github.com/guaix-ucm/megaradrp\">megaradrp</a>), the pipeline of MEGARA, the optical Integral-Field Unit and Multi-Object Spectrograph of the Gran Telescopio Canarias (GTC).</p><ul><li><strong>LinesCatalog</strong>: catalogs of arc lines, by VPH and lamp, in ECSV.</li><li><strong>ReferenceExtinctionTable</strong>: atmospheric extinction at the Roque de los Muchachos Observatory, La Palma, from Table 1 in RGO/La Palma technical note no. 31, in ECSV.</li><li><strong>MasterBPM</strong>: bad pixel masks, in FITS, one for each status of the instrument (profile).</li></ul><p>Each file describes itself with the envelope of numina (type, format, instrument, profile and tags), and numina selects the files by these metadata. The files are installed with <code>numina inittree MEGARA</code>.</p><p>For reproducibility, cite the exact version of the dataset you are using.</p>",
+  "creators": [
+    {
+      "name": "Cardiel, Nicolás",
+      "affiliation": "Universidad Complutense de Madrid",
+      "orcid": "0000-0002-9334-2979"
+    },
+    {
+      "name": "Pascual, Sergio",
+      "affiliation": "Universidad Complutense de Madrid",
+      "orcid": "0000-0002-9351-6051"
+    }
+  ],
+  "keywords": ["MEGARA", "GTC", "calibration", "data reduction"],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "communities": [
+    {"identifier": "guaix-ucm"}
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.593647",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://www.ing.iac.es/Astronomy/observing/manuals/ps/tech_notes/tn031.pdf",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-technicalnote",
+      "scheme": "url"
+    }
+  ]
+}
