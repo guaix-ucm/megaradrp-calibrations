@@ -4,8 +4,10 @@
 # - {name: wavelength, unit: Angstrom, datatype: float64, description: Wavelength}
 # - {name: extinction, unit: mag, datatype: float64, description: 'Extinction coefficient, in magnitudes per unit airmass'}
 # meta: !!omap
+# - {envelope: 1}
 # - {instrument: MEGARA}
 # - {type: ReferenceExtinctionTable}
+# - {format: 2}
 # - {profile: 9f3fecbf-376c-47ae-a188-313b7d829104}
 # - {uuid: 53f22da6-cebb-4112-8489-c14e6e7a26a7}
 # - tags: {}

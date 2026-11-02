@@ -5,9 +5,9 @@ line in a fourth column. The lines that are commented out in the
 catalog are kept, commented out, in the same position (the ECSV reader
 of astropy skips them).
 
-The metadata of the catalog is stored in the header: instrument, type,
-profile, a new uuid and the tags (vph and speclamp), taken from the
-path PROFILE/LinesCatalog/LAMP/VPH/FILE.lis. The text of the header of
+The metadata of the catalog is stored in the header: envelope, instrument,
+type, format, profile, a new uuid and the tags (vph and speclamp), taken
+from the path PROFILE/LinesCatalog/LAMP/VPH/FILE.lis. The text of the header of
 the catalog is stored in description, and the URLs in references, each
 with the text that introduces it as a note.
 
@@ -138,8 +138,10 @@ def convert(path):
         table["intensity"] = intensity.astype("int64")
     for name, desc in DESCRIPTIONS.items():
         table[name].description = desc
+    table.meta["envelope"] = 1
     table.meta["instrument"] = "MEGARA"
     table.meta["type"] = "LinesCatalog"
+    table.meta["format"] = 2
     table.meta["profile"] = profile
     table.meta["uuid"] = str(uuid.uuid4())
     table.meta["tags"] = {"speclamp": lamp, "vph": vph}

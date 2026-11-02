@@ -3,9 +3,9 @@
 The columns are wavelength (Angstrom) and extinction (magnitudes per
 unit airmass).
 
-The metadata of the table is stored in the header: instrument, type,
-profile (from the path PROFILE/ReferenceExtinctionTable/FILE), a new
-uuid, empty tags, the description of the table and its reference.
+The metadata of the table is stored in the header: envelope, instrument,
+type, format, profile (from the path PROFILE/ReferenceExtinctionTable/FILE),
+a new uuid, empty tags, the description of the table and its reference.
 
 Usage: python tools/extinction_to_ecsv.py FILE [FILE ...]
 
@@ -47,8 +47,10 @@ def convert(path):
     table["wavelength"].description = "Wavelength"
     table["extinction"].unit = u.mag
     table["extinction"].description = "Extinction coefficient, in magnitudes per unit airmass"
+    table.meta["envelope"] = 1
     table.meta["instrument"] = "MEGARA"
     table.meta["type"] = "ReferenceExtinctionTable"
+    table.meta["format"] = 2
     table.meta["profile"] = profile
     table.meta["uuid"] = str(uuid.uuid4())
     table.meta["tags"] = {}

@@ -6,8 +6,10 @@
 # - {name: intensity, datatype: int64, description: Relative intensity (NIST)}
 # - {name: comment, datatype: string, description: Comment}
 # meta: !!omap
+# - {envelope: 1}
 # - {instrument: MEGARA}
 # - {type: LinesCatalog}
+# - {format: 2}
 # - {profile: ca3558e3-e50d-4bbc-86bd-da50a0998a48}
 # - {uuid: 9f337bd3-cf15-4cb9-9eef-9c4d95ada01d}
 # - tags: {speclamp: ThAr, vph: LR-I}

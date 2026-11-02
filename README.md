@@ -26,6 +26,13 @@ instrument status during two different epochs:
 * **ca3558e3-e50d-4bbc-86bd-da50a0998a48**: Images obtained before January 2026
 * **9f3fecbf-376c-47ae-a188-313b7d829104**: Images obtained after January 2026
 
+Each file describes itself with the envelope of numina: the meta of the
+ECSV tables and the primary header of the FITS files (keywords NUMENV,
+NUMTYPE, NUMFMT, INSTRUME, UUID and INSCONF) give its type, the format of
+its contents, the instrument, a unique identifier, the profile and the
+tags used to select it. numina selects the files by these metadata; the
+versions of numina without this selection find them by their path.
+
 ## Citation ##
 
 If you use this dataset in your processing of MEGARA data, please cite the
