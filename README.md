@@ -26,9 +26,11 @@ The files are:
 * **ReferenceExtinctionTable**: atmospheric extinction at the Roque de los
   Muchachos Observatory, in ECSV.
 * **MasterBPM**: bad pixel masks, in FITS, one for each status of the
-  instrument (profile):
-  * **ca3558e3-e50d-4bbc-86bd-da50a0998a48**: Images obtained before January 2026
-  * **9f3fecbf-376c-47ae-a188-313b7d829104**: Images obtained after January 2026
+  instrument (profile), named with the start of the UUID of the profile:
+  * **master_bpm_ca3558e3.fits.gz**: profile ca3558e3-e50d-4bbc-86bd-da50a0998a48,
+    images obtained before January 2026
+  * **master_bpm_9f3fecbf.fits.gz**: profile 9f3fecbf-376c-47ae-a188-313b7d829104,
+    images obtained after January 2026
 
 The catalogs and the extinction table do not depend on the profile.
 

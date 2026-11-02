@@ -8,8 +8,8 @@ ECSV (lines catalogs, extinction tables)
     after the type. The text of the file is edited, not rewritten with
     astropy, to keep the lines of data that are commented out.
 FITS (bad pixel masks)
-    The keywords NUMENV = 1, NUMTYPE (the type, from the path
-    PROFILE/TYPE/FILE) and NUMFMT = 1 are added to the primary header,
+    The keywords NUMENV = 1, NUMTYPE (the type, the name of the
+    directory of the file) and NUMFMT = 1 are added to the primary header,
     and the checksums are updated. INSTRUME, UUID and INSCONF are
     already there.
 
