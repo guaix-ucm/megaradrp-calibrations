@@ -20,18 +20,26 @@ This repository contains the calibration files required for data reduction
 following the instructions detailed in the [MEGARA
 cookbook](https://guaix-ucm.github.io/megaradrp-cookbook/).
 
-The current directory structure contains calibration files corresponding to the
-instrument status during two different epochs:
+The files are:
 
-* **ca3558e3-e50d-4bbc-86bd-da50a0998a48**: Images obtained before January 2026
-* **9f3fecbf-376c-47ae-a188-313b7d829104**: Images obtained after January 2026
+* **LinesCatalog**: catalogs of arc lines, in ECSV, named VPH_LAMP.ecsv.
+* **ReferenceExtinctionTable**: atmospheric extinction at the Roque de los
+  Muchachos Observatory, in ECSV.
+* **MasterBPM**: bad pixel masks, in FITS, one for each status of the
+  instrument (profile):
+  * **ca3558e3-e50d-4bbc-86bd-da50a0998a48**: Images obtained before January 2026
+  * **9f3fecbf-376c-47ae-a188-313b7d829104**: Images obtained after January 2026
+
+The catalogs and the extinction table do not depend on the profile.
 
 Each file describes itself with the envelope of numina: the meta of the
 ECSV tables and the primary header of the FITS files (keywords NUMENV,
 NUMTYPE, NUMFMT, INSTRUME, UUID and INSCONF) give its type, the format of
-its contents, the instrument, a unique identifier, the profile and the
-tags used to select it. numina selects the files by these metadata; the
-versions of numina without this selection find them by their path.
+its contents, the instrument, a unique identifier, the profile (only if
+the data depend on it) and the tags used to select it. numina selects the
+files by these metadata, whatever their directory, so this dataset
+requires a version of numina that reads the envelope; the older versions
+use the dataset 2026.2.
 
 ## Citation ##
 

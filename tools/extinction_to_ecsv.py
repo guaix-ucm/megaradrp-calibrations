@@ -4,8 +4,8 @@ The columns are wavelength (Angstrom) and extinction (magnitudes per
 unit airmass).
 
 The metadata of the table is stored in the header: envelope, instrument,
-type, format, profile (from the path PROFILE/ReferenceExtinctionTable/FILE),
-a new uuid, empty tags, the description of the table and its reference.
+type, format, a new uuid, empty tags, the description of the table and its
+reference.
 
 Usage: python tools/extinction_to_ecsv.py FILE [FILE ...]
 
@@ -30,10 +30,6 @@ REFERENCE = {
 
 def convert(path):
     path = pathlib.Path(path)
-    parts = path.parts
-    idx = parts.index("ReferenceExtinctionTable")
-    profile = parts[idx - 1]
-
     text = path.read_text()
     # The table is checked to be the one described here
     if "RGO/La Palma technical note no. 31" not in text:
@@ -51,7 +47,6 @@ def convert(path):
     table.meta["instrument"] = "MEGARA"
     table.meta["type"] = "ReferenceExtinctionTable"
     table.meta["format"] = 2
-    table.meta["profile"] = profile
     table.meta["uuid"] = str(uuid.uuid4())
     table.meta["tags"] = {}
     table.meta["description"] = DESCRIPTION
