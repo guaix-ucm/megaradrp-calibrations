@@ -10,7 +10,7 @@
 # - {instrument: MEGARA}
 # - {type: LinesCatalog}
 # - {format: 2}
-# - {uuid: ADC45AF2-15AE-4C05-AFC3-6A710B01F969}
+# - {uuid: adc45af2-15ae-4c05-afc3-6a710b01f969}
 # - tags: {speclamp: ThAr, vph: HR-R}
 # - {description: HR-R Nico's version 20261116}
 # - references:
